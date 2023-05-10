@@ -14,12 +14,14 @@ function App() {
   return (
     <>
       <CustomCursor />
-      <Navbar />
-      <Header />
-      <Featured />
-      <About />
-      <Services />
-      <Footer />
+      <div className="main-container" id="main-container">
+        <Navbar />
+        <Header />
+        {/* <Featured /> */}
+        <About />
+        <Services />
+        <Footer />
+      </div>
     </>
   );
 }
